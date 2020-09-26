@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/domaintrial/CI-bayu/
+    - /bin/cp -R * $DEPLOYPATH
